@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="0"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="170dp"
+        android:layout_height="148dp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Turkish Lira"
+            android:checked="true"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dollar"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Euro"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pound"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="154dp"
+            android:layout_height="57dp"
+            android:text="CONVERT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:gravity="left|center"
+            android:text="TRY = "
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:gravity="left|center"
+            android:text="USD = "
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:gravity="left|center"
+            android:text="EUR = "
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="333dp"
+            android:layout_height="38dp"
+            android:gravity="left|center"
+            android:text="GBP = "
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="26dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
