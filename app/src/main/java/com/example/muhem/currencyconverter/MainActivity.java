@@ -183,8 +183,6 @@ public class MainActivity extends AppCompatActivity {
         float try_eur = (EUR / GBP) * given_count;
         float try_gbp = given_count;
 
-
-
         tv1.setText("TRY = " + Float.toString(try_try));
         tv2.setText("USD = " + Float.toString(try_usd));
         tv3.setText("EUR = " + Float.toString(try_eur));
